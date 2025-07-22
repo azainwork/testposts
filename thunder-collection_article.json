@@ -1,0 +1,100 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "article",
+    "dateExported": "2025-07-22T22:59:37.949Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9c49f0f1-1071-432a-88c0-ad907355a7be",
+            "colId": "3d9c711c-0a00-4313-9d9b-35e16f9560fa",
+            "containerId": "",
+            "name": "GET",
+            "url": "http://localhost:8087/article?limit=10&offset=0",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-07-22T21:13:07.100Z",
+            "modified": "2025-07-22T21:13:45.285Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limit",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "offset",
+                    "value": "0",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f3215d7a-bdd2-4cd0-8ec9-83f97831e2f9",
+            "colId": "3d9c711c-0a00-4313-9d9b-35e16f9560fa",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:8087/article",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-07-22T21:13:52.913Z",
+            "modified": "2025-07-22T21:16:23.268Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\r\n    \"title\": \"Cara Efektif Meningkatkan Produktivitas Harian\",\r\n    \"content\": \"Produktivitas harian dapat ditingkatkan dengan manajemen waktu yang baik, fokus pada prioritas, serta menghindari distraksi seperti media sosial. Gunakan metode seperti Pomodoro atau to-do list untuk membantu aktivitas harianmu tetap terstruktur dan efisien. Disiplin adalah kunci utama.\",\r\n    \"category\": \"pengembangan diri\",\r\n    \"status\": \"publish\"\r\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b32d717-a034-4c18-a8e9-40ae73432a0d",
+            "colId": "3d9c711c-0a00-4313-9d9b-35e16f9560fa",
+            "containerId": "",
+            "name": "GETBYID",
+            "url": "http://localhost:8087/article/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-07-22T21:17:21.283Z",
+            "modified": "2025-07-22T21:17:35.741Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "887b187f-a2a6-45a3-9ba5-14e0bfbb2b63",
+            "colId": "3d9c711c-0a00-4313-9d9b-35e16f9560fa",
+            "containerId": "",
+            "name": "UPDATE",
+            "url": "http://localhost:8087/article/1",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2025-07-22T21:18:46.321Z",
+            "modified": "2025-07-22T21:20:48.593Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\r\n    \"title\": \"Cara Efektif Meningkatkan Produktivitas Harian\",\r\n    \"content\": \"Produktivitas harian dapat ditingkatkan dengan manajemen waktu yang baik, fokus pada prioritas, serta menghindari distraksi seperti media sosial. Gunakan metode seperti Pomodoro atau to-do list untuk membantu aktivitas harianmu tetap terstruktur dan efisien. Disiplin adalah kunci utama.\",\r\n    \"category\": \"pengembangan diri\",\r\n    \"status\": \"draft\"\r\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "64259919-6b9b-454f-8c73-50a72c363131",
+            "colId": "3d9c711c-0a00-4313-9d9b-35e16f9560fa",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:8087/article/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-07-22T21:21:59.588Z",
+            "modified": "2025-07-22T21:22:39.280Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
