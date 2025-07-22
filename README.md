@@ -6,6 +6,8 @@ Untuk backend berjalan di url: http://localhost:8087/
 Untuk frontend berjalan di url: http://localhost:5173/
 
 apabila berhasil, maka tampilan frontend sebagai berikut.
+
+
 **PAGE POSTS**
 <img width="1366" height="446" alt="image" src="https://github.com/user-attachments/assets/47231815-ac11-4e0c-a450-4aa5fe39eadc" />
 <img width="1365" height="370" alt="image" src="https://github.com/user-attachments/assets/eb276ba5-7b0e-4e20-9707-81c94f95e7f2" />
